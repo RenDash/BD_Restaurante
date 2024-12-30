@@ -246,7 +246,7 @@ insert into pedidos(id_cliente,id_funcionario,id_produto,quantidade,data_pdido,s
 
 
 -- Atualização e remoção de funcionários
-set sql_safe_updates=0;
+set sql_safe_updates=1;
 
 select * from funcionario;
  
